@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+* {
+   margin: 0;
+   box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+   background-color: antiquewhite;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   margin: 0;
+   font-family: "Lato", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home_container {
+   margin-top: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.home_incExpContainer {
+   background-color: #fff;
+   box-shadow: var(--box-shadow);
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+   margin: 20px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.history_list {
+   margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.transaction_container {
+   margin-top: 30px;
+}
+
+.transaction_form {
+   margin-top: 20px;
+   display: grid;
+}
+
+.transaction_formBtn {
+   margin-top: 15px;
+}
+
+.transaction_formLabel {
+   margin-top: 10px;
 }
